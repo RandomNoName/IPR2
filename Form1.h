@@ -74,7 +74,7 @@ namespace CppCLRWinFormsProject {
 			// 
 			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button1->Location = System::Drawing::Point(204, 352);
+			this->button1->Location = System::Drawing::Point(408, 373);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(230, 65);
 			this->button1->TabIndex = 0;
@@ -87,7 +87,7 @@ namespace CppCLRWinFormsProject {
 			this->L1_1->AutoSize = true;
 			this->L1_1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->L1_1->Location = System::Drawing::Point(199, 242);
+			this->L1_1->Location = System::Drawing::Point(22, 242);
 			this->L1_1->Name = L"L1_1";
 			this->L1_1->Size = System::Drawing::Size(80, 25);
 			this->L1_1->TabIndex = 1;
@@ -99,7 +99,7 @@ namespace CppCLRWinFormsProject {
 			this->L2_1->AutoSize = true;
 			this->L2_1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->L2_1->Location = System::Drawing::Point(201, 288);
+			this->L2_1->Location = System::Drawing::Point(22, 288);
 			this->L2_1->Name = L"L2_1";
 			this->L2_1->Size = System::Drawing::Size(110, 25);
 			this->L2_1->TabIndex = 2;
@@ -110,7 +110,7 @@ namespace CppCLRWinFormsProject {
 			this->L1_2->AutoSize = true;
 			this->L1_2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->L1_2->Location = System::Drawing::Point(311, 242);
+			this->L1_2->Location = System::Drawing::Point(108, 242);
 			this->L1_2->Name = L"L1_2";
 			this->L1_2->Size = System::Drawing::Size(48, 25);
 			this->L1_2->TabIndex = 3;
@@ -121,7 +121,7 @@ namespace CppCLRWinFormsProject {
 			this->L2_2->AutoSize = true;
 			this->L2_2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->L2_2->Location = System::Drawing::Point(311, 288);
+			this->L2_2->Location = System::Drawing::Point(138, 288);
 			this->L2_2->Name = L"L2_2";
 			this->L2_2->Size = System::Drawing::Size(48, 25);
 			this->L2_2->TabIndex = 4;
@@ -132,15 +132,17 @@ namespace CppCLRWinFormsProject {
 			// 
 			this->textbox->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->textbox->Location = System::Drawing::Point(83, 198);
+			this->textbox->Location = System::Drawing::Point(3, 392);
 			this->textbox->Name = L"textbox";
-			this->textbox->Size = System::Drawing::Size(466, 29);
+			this->textbox->Size = System::Drawing::Size(399, 29);
 			this->textbox->TabIndex = 5;
 			// 
 			// Form1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(255)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
+				static_cast<System::Int32>(static_cast<System::Byte>(255)));
 			this->ClientSize = System::Drawing::Size(650, 461);
 			this->Controls->Add(this->textbox);
 			this->Controls->Add(this->L2_2);
